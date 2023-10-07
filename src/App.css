@@ -1,0 +1,69 @@
+body{
+  background: url("https://avatars.mds.yandex.net/get-pdb/770122/22fdf5b2-e1f1-43da-bb55-c9385dc51d88/orig") no-repeat;
+  background-size: cover;
+}
+.weather{
+  width: 80%;
+  height: 400px;
+  padding: 30px 10px 10px 30px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid blue;
+  border-radius: 30px;
+
+
+  margin: 100px auto;
+}
+p{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+table{
+  width: 100px;
+  height: 200px;
+  border-collapse: collapse;
+  border: 1px solid red;
+  
+  background-size: cover;
+  color: black;
+
+}
+td{
+  text-align: center;
+}
+input{
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: 60px;
+}
+input::placeholder{
+  color: black;
+}
+
+button{
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #4cb463;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover{
+  background-color: goldenrod;
+  transition: 0.5s;
+} 
+.sky{
+  padding-top: 10px;
+  border: none;
+  width: 200px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
